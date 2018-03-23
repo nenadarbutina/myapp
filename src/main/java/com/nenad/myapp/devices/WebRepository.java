@@ -1,10 +1,9 @@
-package com.nenad.myapp.Devices;
+package com.nenad.myapp.devices;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-
 @Repository
-public interface Web_Repository extends JpaRepository<web, Long> {
+public interface WebRepository extends JpaRepository<Web, Long> {
 
 }
